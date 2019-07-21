@@ -1,0 +1,42 @@
+{
+  "errno": 0,
+  "data": {
+    "name": "向宇蜂园（武胜店）",
+    "description": "",
+   "deliveryTime": 38,
+    "score": 4.2,
+    "serviceScore": 4.1,
+    "foodScore": 4.3,
+    "rankRate": 69.2,
+    "minPrice": 0,
+    "deliveryPrice": 0,
+    "ratingCount": 24,
+    "sellCount": 90,
+    "bulletin": "",
+    "supports": [
+      {
+        "type": 0,
+        "description": "推荐顾客抵扣5元优惠券"
+      },
+      {
+        "type": 1,
+        "description": "满3件享受九折优惠"
+      }
+
+    ],
+    "avatar": "http://ydcoding.cn/sale/image/shopbg.png",
+    "pics": [
+      "http://ydcoding.cn/sale/image/shop.jpg",
+      "http://ydcoding.cn/sale/image/zj.jpg",
+      "http://ydcoding.cn/sale/image/in.jpg",
+
+      "http://ydcoding.cn/sale/image/out.jpg"
+
+    ],
+    "infos": [
+      "品类:农产品,蜂蜜店",
+      "四川省广安市武胜县沿口镇兴隆街94号",
+      "营业时间:09:00-21:30"
+    ]
+  }
+}

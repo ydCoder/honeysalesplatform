@@ -1,0 +1,48 @@
+spring:
+
+  datasource:
+    driver-class-name:  com.mysql.cj.jdbc.Driver
+    username: root
+    password: Ydcoding20180609.
+    url: jdbc:mysql://47.106.195.27/honeysale?characterEncoding=utf-8&useSSL=false
+  jpa:
+    show-sql: true
+  jackson:
+    default-property-inclusion: non_null
+server:
+
+  servlet:
+    context-path: /sell
+# 七牛云配置 # bucket是创建的存储空间名 # path对应存储空间的访问域名
+qiniu:
+    accessKey: 5YZBg6Pet7ew-yNoity6D4ezYeGrDFvhwGCmtru1
+    secretKey: RwjP02eqTNXf2um8Bu5sjkHB30ltD7gfXUhNGrK1
+    bucket: pyd888
+    path: http://preiwg4kj.bkt.clouddn.com
+
+#wechat:
+#  #授权
+#  mpAppId: wxcb40a04f5f9fbc32
+#  mpAppSecret: 9ee656a4656004dbad2e46a49b1dc801
+
+
+
+
+wechat:
+  #公众平台账号
+  mpAppId: wxd898fcb01713c658
+  mpAppSecret: 4e61dc329ae11f895eb16d99b8c3bec9
+
+
+  #支付平台 商户id /密钥
+
+  mchId: 1483469312
+  mchKey: C5245D70627C1F8E9964D494B0735025
+  keyPath: E:\IDEApro\honeysalesplatform\src\main\resources\static\refund.p12
+  notifyUrl: http://pyd888.natapp1.cc/sell/pay/notify
+
+
+projectUrl:
+  wechatMpAuthorize: http://pyd888.natapp1.cc
+  wechatOpenAuthorize: http://pyd888.natapp1.cc
+  sell: http://pyd888.natapp1.cc
